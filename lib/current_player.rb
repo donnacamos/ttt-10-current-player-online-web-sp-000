@@ -12,7 +12,10 @@ end
 
 def current_player(board)
   turns = 9 % 2 == 1 
-  
+ if turn_count == 0 
+   return "X"
+ else
+   return "O"
 end
 end 
 
