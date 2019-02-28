@@ -12,7 +12,7 @@ end
 
 def current_player(board)
   turns = 9 % 2 == 1 
-turns = turn_count(board) =~ current_player(board) ? "X" : "O"
+turns = turn_count(board) =~ /lib/current_player ? "X" : "O"
 
 end 
 
